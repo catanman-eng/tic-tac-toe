@@ -1,1 +1,3 @@
-# tic-tac-toe
+The ODIN PROJECT
+
+Tic Tac Toe Assignmnet
