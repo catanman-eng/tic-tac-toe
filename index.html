@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="master.css">
+</head>
+<body>
+  <header>
+    <h1 class="title">Tic Tac Toe!</h1>
+  </header>
+
+  <div class="main">
+    <div class="message">Player X's Turn</div>
+    <div class="gameBoard">
+      <button class="square top left" id="0"></button>
+      <button class="square top" id="1"></button>
+      <button class="square top right" id="2"></button>
+      <button class="square left" id="3"></button>
+      <button class="square" id="4"></button>
+      <button class="square right" id="5"></button>
+      <button class="square bottom left" id="6"></button>
+      <button class="square bottom " id="7"></button>
+      <button class="square bottom right" id="8"></button>
+    </div>
+
+    <button class="reset">Reset</button>
+  </div>
+
+  <div class="popup"></div>
+  <div class="popup-overlay"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
